@@ -2,11 +2,6 @@ from flask import Flask, request, jsonify
 from rembg import remove
 from flask_cors import CORS
 
-
-
-
-model_path = "/u2net.onnx"
-
 app = Flask(__name__)
 CORS(app)
 
